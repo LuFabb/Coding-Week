@@ -1,0 +1,43 @@
+/* reset css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 667px;
+  width: 375px;
+  background-color: #5c43ee;
+}
+
+.container .logo {
+  padding: 20px;
+}
+
+figcaption {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.container-icone {
+  display: flex;
+  margin: 50px auto;
+  width: 350px;
+  height: 350px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.container-icone .items {
+  cursor: pointer;
+}
